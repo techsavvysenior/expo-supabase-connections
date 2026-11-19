@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Connections",
+    "slug": "expo-supabase-connections",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "connections",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.example.connections"
+    },
+    "android": {
+      "package": "com.example.connections"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F6F7F9"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
